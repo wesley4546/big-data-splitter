@@ -16,12 +16,12 @@ Just make sure that I'm the newest version.
 ## Examples
 Here are some example code answers to the questions I'm going to ask!
 
+### JSON
+
 ```
 What file are we splitting today? (Please add the file extension): HUGE-data.json
 
 What's the base name of our new files? tweets
-
-What extension should I be making the new files? (example: .json): .json
 
 How many new files would you like to create in total? 5
 
@@ -34,10 +34,24 @@ This is what that'll look like:
 ![big-data-splitter-example](readme_examples/big-data-splitter-example.png)
 
 
-Heres an example of what your new files look like!
+Heres an example of what your new JSON files look like!
 
 ![](readme_examples/big-data-splitter-file-example.PNG)
 
+### CSV
+```
+What file are we splitting today? (Please add the file extension): HUGE-data.csv
+
+What's the base name of our new files? transcripts
+
+How many lines do you want each file to be of the file_to_split? 500
+```
+
+* The `big-data-splitter-csv.py` splits the entire file (no matter the size) into equal parts. This is not like the json counterpart.
+
+Heres an example of what your new CSV files look like!
+
+![](readme_examples/big-data-splitter-file-csv-example.PNG)
 
 
 Happy big-data-splitting!
