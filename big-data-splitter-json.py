@@ -1,11 +1,10 @@
 from itertools import islice
 import time
-#Prompting / instructions
+
+# Prompting / instructions
 
 print("Lets split some files today!")
 print("Make sure that I'm in the same directory as the file you want to split!")
-
-
 
 ################# VARIABLES TO CHANGE #################
 
@@ -15,24 +14,20 @@ file_to_split = input("What file are we splitting today? (Please add the file ex
 # This is going to be the "base" file name for all your new files. Make it meaningful!
 filename = input("What's the base name of our new files? ")
 
-# This is how your files are going to be saved
-extension = input("What extension should I be making the new files? (example: .json): ")
-
 # This is how many files you want
 desired_file_number = int(input("How many new files would you like to create in total? "))
 
 # This is how many lines you want
 number_of_lines = int(input("How many lines do you want each file to be of the file_to_split? "))
 
-
 #######################################################
 
 print("Hang tight, I'll get started")
 
-
-
-
 ################# Below is the magic #################
+
+extension = ".json"
+
 
 # Creates a function that will automatically concatenates inputs as a single string
 def file_name(file_number, file, number_of_lines, extension):
@@ -65,8 +60,8 @@ with open(file_to_split) as inputfile:
             result.append(line)
         #  Creates a new file of the selected set.
         with open(file_name(file_number, filename, number_of_lines, extension), 'w') as new_file:
-            for tweet in result:
-                new_file.write("%s" % tweet)
+            for line in result:
+                new_file.write("%s" % line)
 
         print(f"File {file_number} complete...")
         # Resets/increments the variables.
@@ -74,8 +69,6 @@ with open(file_to_split) as inputfile:
         file_number += 1
         start += end
         end = start + number_of_lines
-
-
 
 print("All done!")
 time.sleep(5)
