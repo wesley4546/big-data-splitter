@@ -31,10 +31,12 @@ How many lines do you want each file to be of the file_to_split? 50
 Don't worry, I'll update you on my progress as we tackle this problem together. 
 This is what that'll look like:
 
+![big-data-splitter-example](readme_examples/big-data-splitter-example.png)
 
 
+Heres an example of what your new files look like!
 
-
+![](readme_examples/big-data-splitter-file-example.png)
 
 
 
