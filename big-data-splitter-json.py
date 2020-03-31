@@ -1,10 +1,9 @@
 from itertools import islice
 import time
 
-# Prompting / instructions
-
-print("Lets split some files today!")
+print("Lets split a file today!")
 print("Make sure that I'm in the same directory as the file you want to split!")
+print("You are running the JSON version of big-data-splitter\n")
 
 ################# VARIABLES TO CHANGE #################
 
