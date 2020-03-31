@@ -1,5 +1,5 @@
 from itertools import islice
-
+import time
 #Prompting / instructions
 
 print("Lets split some files today!")
@@ -78,4 +78,4 @@ with open(file_to_split) as inputfile:
 
 
 print("All done!")
-sys.sleep(5)
+time.sleep(5)
