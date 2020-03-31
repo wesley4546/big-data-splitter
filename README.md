@@ -36,7 +36,7 @@ This is what that'll look like:
 
 Heres an example of what your new files look like!
 
-![](readme_examples/big-data-splitter-file-example.png)
+![](readme_examples/big-data-splitter-file-example.PNG)
 
 
 
