@@ -78,3 +78,4 @@ with open(file_to_split) as inputfile:
 
 
 print("All done!")
+sys.sleep(5)
