@@ -7,7 +7,7 @@ Do you have a JSON file that is 166 GB and want to break it down into smaller mo
 I can also tackle other problems too!
 
 ## Requirement
-I only have one request...You have to put the `big-data-splitter.py` in the same directory as your HUGE data file (A sacrafice we have to make). 
+I only have one request...You have to put the `big-data-splitter.py` in the same directory as your HUGE data file (A sacrifice we have to make). 
 
 You can literally copy and paste me! 
 
