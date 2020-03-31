@@ -14,10 +14,9 @@ You can literally copy and paste me!
 Just make sure that I'm the newest version.
 
 ## Examples
-Here are some example code answers to the questions I'm going to ask!
 
 ### JSON
-
+Here are some example code answers to the questions I'm going to ask!
 ```
 What file are we splitting today? (Please add the file extension): HUGE-data.json
 
@@ -39,6 +38,7 @@ Heres an example of what your new JSON files look like!
 ![](readme_examples/big-data-splitter-file-example.PNG)
 
 ### CSV
+Here are some example code answers to the questions I'm going to ask!
 ```
 What file are we splitting today? (Please add the file extension): HUGE-data.csv
 
@@ -51,7 +51,7 @@ How many lines do you want each file to be of the file_to_split? 500
 
 Heres an example of what your new CSV files look like!
 
-![](readme_examples/big-data-splitter-file-csv-example.PNG)
+![](readme_examples/big-data-splitter-csv-example.PNG)
 
 
 Happy big-data-splitting!
