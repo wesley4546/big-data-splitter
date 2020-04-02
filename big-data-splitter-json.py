@@ -28,7 +28,7 @@ print("Hang tight, I'll get started")
 extension = ".json"
 
 
-# Creates a function that will automatically concatenates inputs as a single string
+# Creates a function that will automatically concatenate inputs as a single string
 def file_name(file_number, file, number_of_lines, extension):
     filenumber_string = str(file_number)
     file_string = str(file)
