@@ -38,7 +38,7 @@ Heres an example of what your new JSON files look like!
 ![](readme_examples/big-data-splitter-file-example.PNG)
 
 ### CSV
-Here are some example code answers to the questions I'm going to ask!
+Here are some example code answers to the questions I'm going to ask.
 ```
 What file are we splitting today? (Please add the file extension): HUGE-data.csv
 
